@@ -18,7 +18,15 @@
     --fontetexto: 'Sriracha', 'cursive';
 }
 
+body{
+    min-height: 100vh;
+    background-color: white;
+    font-family: var(--fontetexto);
+}
+
+
 header{
+    
     background-color: black;
     text-align: center;
     color: white;
@@ -72,10 +80,13 @@ a:hover {
     
 }
 
+
+
+
 .imagem01{
     background-image: url(imagens/background001.jpg);
     background-position: left, center;
-    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
     
     padding-top: 10vh;
@@ -91,7 +102,7 @@ a:hover {
 .imagem02{
     background-image: url(imagens/background002.jpg);
     background-position: left, center;
-    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
     padding-top: 10vh;
     padding-bottom: 10vh;
